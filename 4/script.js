@@ -1,9 +1,9 @@
 function randomPart(value){
   var randomValue = Math.floor(Math.random() * 11) - 5;
   if (randomValue <= 0) {
-    alert("Ви програли " + value + " грн");
+    alert("Ви програли");
   } else if (randomValue <= 5 || randomValue > 0) {
-    alert("Ви виграли " + value * randomValue + " грн");
+    alert("Ви виграли " + value * randomValue);
   }
   game()
 }
